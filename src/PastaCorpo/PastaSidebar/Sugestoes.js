@@ -12,9 +12,7 @@ export default function Sugestoes(){
     return(
         <div class="sugestoes">
             <SugestoesTitulo/>
-
             {sugestoes.map(objeto => <Sugestao imagem={objeto.imagem} nome={objeto.nome} razao={objeto.razao} />)}
-            
           </div>
     );
 };

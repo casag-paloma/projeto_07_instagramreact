@@ -11,13 +11,11 @@ export default function Stories(){
         {imagem:"assets/img/respondeai.svg", usuario:"respondeai"},
         {imagem:"assets/img/filomoderna.svg", usuario:"filomoderna"},
         {imagem:"assets/img/memeriagourmet.svg", usuario:"memeriagourmet"},
-        {imagem:"assets/img/9gag.svg", usuario:"9gag"},];
+        {imagem:"assets/img/9gag.svg", usuario:"9gag"}];
 
     return(
         <div class="stories">
-
             {stories.map(objeto => <Story imagem={objeto.imagem} usuario={objeto.usuario}/>)}
-
             <StoriesSetinha/>
           </div>
     )

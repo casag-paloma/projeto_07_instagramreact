@@ -5,6 +5,6 @@ export default function FundoCurtidas(props){
             <div class="texto">
                 Curtido por <strong>{props.texto}</strong> e <strong> outras {props.curtidas} pessoas</strong>
             </div>
-    </div>
+        </div>
     );
 };
